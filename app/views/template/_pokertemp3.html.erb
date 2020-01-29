@@ -1,0 +1,8 @@
+<%= form_tag(check_path, method: :post) do %>
+  <div class="input.form">
+    <%= text_field_tag "cards", "H1 H13 H12 H11 H10" %>
+  </div>
+  <div class="main.submit">
+    <%= submit_tag "check" %>
+  </div>
+<% end %>
